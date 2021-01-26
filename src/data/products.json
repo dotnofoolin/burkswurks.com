@@ -1,0 +1,14 @@
+[{
+  "id": 1,
+  "name": "Consulting",
+  "image": "/images/consulting.jpg",
+  "description": "Hire us as a consultant for your software needs.",
+  "price": 75
+},
+{
+  "id": 2,
+  "name": "T-Shirt",
+  "image": "/images/tshirt.jpg",
+  "description": "Rep the brand with a classic t-shirt. Screenprinted.",
+  "price": 25
+}]
