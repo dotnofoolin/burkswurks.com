@@ -25,7 +25,7 @@
   
   export default {
     metaInfo: {
-      title: 'BurksWurks - Products'
+      title: 'Products'
     },
     components: {
       Products

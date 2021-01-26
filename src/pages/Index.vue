@@ -1,12 +1,10 @@
 <template>
   <Layout>
-
-    <strong>Yo! Welcome, and thanks for your support.</strong>
-
+    <div class="block">
+      <p>Howdy! Welcome, and thanks for your support.</p>
+    </div>
     <hr/>
-
     <Products />
-
   </Layout>
 </template>
 
@@ -15,7 +13,7 @@ import Products from "@/components/Products.vue"
 
 export default {
   metaInfo: {
-    title: 'BurksWurks'
+    title: 'Home'
   },
   components: {
     Products

@@ -1,20 +1,24 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/contact">Contact</g-link>
-        <g-link class="nav__link" to="/products">Products</g-link>
-        <g-link class="nav__link snipcart-checkout">
-          <b-button class="is-primary is-small">
+  <div class="container">
+    <div class="columns mt-3">
+      <div class="column is-two-thirds">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+          <ul>
+            <li><g-link class="is-italic has-text-weight-bold" to="/">{{ $static.metadata.siteName }}</g-link></li>
+            <li><g-link to="/products">Products</g-link></li>
+            <li><g-link to="/contact">Contact</g-link></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="column">
+        <g-link class="snipcart-checkout is-pulled-right">
+          <b-button class="is-primary">
             <b-icon pack="fas" icon="shopping-cart" size="is-small"></b-icon>
             <span class="ml-1 snipcart-total-price">{{this.totalPrice | formatMoney }}</span>
           </b-button>
         </g-link>
-      </nav>
-    </header>
+      </div>
+    </div>
     <slot/>
   </div>
 </template>
@@ -46,29 +50,7 @@ query {
 </script>
 
 <style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
+  body {
+    font-family: "Montserrat";
+  }
 </style>

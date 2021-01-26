@@ -2,7 +2,7 @@
   "id": 1,
   "name": "Consulting",
   "image": "/images/consulting.jpg",
-  "description": "Hire us as a consultant for your software needs.",
+  "description": "Hire us as a consultant for your software needs. Price is per hour.",
   "price": 75
 },
 {
