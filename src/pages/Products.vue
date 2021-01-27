@@ -14,6 +14,7 @@
           image
           description
           price
+          variant
         }
       }
     }

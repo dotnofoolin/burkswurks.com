@@ -1,5 +1,5 @@
-- Make nav header responsive
 - Add footer
 - Finish product view template
 - Style with different colors
 - Different font for site logo
+- Change/remove favicon

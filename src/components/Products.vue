@@ -20,6 +20,7 @@
           image
           description
           price
+          variant
         }
       }
     }
