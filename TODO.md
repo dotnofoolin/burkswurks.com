@@ -1,3 +1,4 @@
+- Don't allow qty changes on shirts. Stack, etc. 
 - Style with different colors
 - Different font for site logo
 - Change/remove favicon
