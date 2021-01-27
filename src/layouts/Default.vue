@@ -1,32 +1,9 @@
 <template>
   <div class="container is-fluid">
-    <div class="columns mt-2 is-mobile">
-
-      <!-- Option 1 -->
-      <div class="column is-two-thirds">
-        <g-link class="is-italic has-text-weight-bold" to="/">{{ $static.metadata.siteName }}</g-link>
-        <nav class="breadcrumb" aria-label="breadcrumbs">
-          <ul>
-            <li><g-link to="/products">Products</g-link></li>
-            <li><g-link to="/contact">Contact</g-link></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="column">
-        <g-link class="snipcart-checkout is-pulled-right">
-          <b-button class="is-primary">
-            <b-icon pack="fas" icon="shopping-cart" size="is-small"></b-icon>
-            <span class="snipcart-total-price">{{this.totalPrice | formatMoney }}</span>
-          </b-button>
-        </g-link>
-      </div>
-    </div>
-
-    <!-- Option 2 -->
-    <nav class="level">
+    <nav class="level mt-4">
       <div class="level-left">
         <div class="level-item">
-          <p class="subtitle is-5">
+          <p>
             <g-link class="is-italic has-text-weight-bold" to="/">{{ $static.metadata.siteName }}</g-link>
           </p>
         </div>
@@ -44,9 +21,7 @@
         </p>
       </div>
     </nav>
-
     <slot/>
-
   </div>
 </template>
 
