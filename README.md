@@ -1,22 +1,21 @@
-# Default starter for Gridsome
+# BurksWurks
 
-This is the project you get when you run `gridsome create new-project`.
+This is an sandbox project I created to play around with static site generators and javascript shopping cart services. By no means is this production ready.
 
-### 1. Install Gridsome CLI tool if you don't have
+## In Action
 
-`npm install --global @gridsome/cli`
+![](gridsome-snipcart-example.gif)
 
-### 2. Create a Gridsome project
+Or try it live (when available): [http://burkswurks.com/](http://burkswurks.com/)
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## Tech Stack
 
-Notes
------
+* Gridsome as the static site generator - [https://gridsome.org/](https://gridsome.org/)
+* Buefy for Bulma CSS styling - [https://buefy.org/](https://buefy.org/)
+* Snipcart shopping cart platform - [https://snipcart.com/](https://snipcart.com/)
+* Surge.sh for hosting - [https://surge.sh/](https://surge.sh/)
 
-- Override index: https://gridsome.org/docs/overriding-index/
-- https://snipcart.com/blog/gridsome-ecommerce-tutorial
-- https://strapi.io/blog/building-a-jamstack-food-ordering-app-with-strapi-gridsome-and-snipcart-1-6
-- https://buefy.org/documentation
+## Inspiration
+
+* [https://snipcart.com/blog/gridsome-ecommerce-tutorial](https://snipcart.com/blog/gridsome-ecommerce-tutorial)
+* [https://strapi.io/blog/building-a-jamstack-food-ordering-app-with-strapi-gridsome-and-snipcart-1-6](https://strapi.io/blog/building-a-jamstack-food-ordering-app-with-strapi-gridsome-and-snipcart-1-6)
